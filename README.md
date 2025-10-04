@@ -40,3 +40,17 @@ else:
         print(f"{pri} is not prime (divisible by {divisor}")  
         
         print(" ")
+
+print(" === Challenge 3: Multiplication Table === ")
+        
+     print("  ", end="") #header
+        for col in range(1, 11):
+            print(f" {col:4} ", end="")
+            print()
+
+        for row in range(1, 11):
+            print(f"{row:2} ", end="")  
+            for col in range(1, 11):
+                product = row * col #will give necessary products that are needed
+                print(f"{product:4}", end="")
+            print()
